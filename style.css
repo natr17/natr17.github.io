@@ -1,0 +1,48 @@
+body{
+    background:rgb(255, 255, 255);
+    color: rbg(45, 45, 45);
+    padding: 10px;
+    font-family: arial;
+}
+#allcontects {
+    max-width: 800px;
+    margin: auto;
+}
+/* navigation menu */
+nav {
+    background: rgb(244, 137, 234);
+    margin: 0 auto; 
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+}
+#nav-ul {
+    list-style-image: none;
+}
+.nav-li {
+    display: inline-block;
+    color: #eeabe1;
+}
+/* main container area beneath menu*/
+main {
+    background: rgb(239, 125, 222);
+    display: flex;
+}
+.sidebar{
+    margin-right: 25px;
+    padding: 10px;
+}
+.sidebar-img {
+    width: 200px;
+}
+.content { 
+    flex: 1;
+    padding: 15px;
+}
+/* portfolio sytyles */
+#intrest {
+    border: 4px sliver ridge;
+}
+h2, h3 {
+    margin: 0px;
+}
