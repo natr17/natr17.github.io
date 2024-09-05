@@ -1,73 +1,69 @@
-body{
-    background:rgb(248, 158, 229);
-    color: rbg(45, 45, 45);
+body {
+    background: rgb(252, 158, 224);
+    color: #030303;
     padding: 10px;
     font-family: arial;
 }
-#allcontects {
-    max-width: 800px;
+#all-contents {
+  max-width: 800px;
     margin: auto;
 }
+
 /* navigation menu */
 nav {
-    background: rgb(255, 130, 211);
-    margin: 0 auto; 
-    margin-bottom: 20px;
+    background: rgb(255, 100, 221);
+   margin: 0 auto;
+   margin-bottom: 20px;
+   border: 2px solid rgb(255, 199, 232);
+   border-radius: 25px;
     display: flex;
     padding: 10px;
 }
+h1 {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    flex: 1;
+    margin: 0;
+}
 #nav-ul {
     list-style-image: none;
+   
 }
 .nav-li {
     display: inline-block;
-    color: #f9f9f9;
+    padding: 0 10px;
+    
 }
-/* main container area beneath menu*/
+a {
+    text-decoration: none;
+    color: #8b5097;
+}
+
+/* main container area beneath menu */
 main {
-    background: rgb(243, 193, 230);
+    background: rgb(255, 194, 235);
     display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
 }
-.sidebar{
+.sidebar {
     margin-right: 25px;
     padding: 10px;
 }
 .sidebar-img {
     width: 200px;
 }
-.content { 
+.content {
     flex: 1;
     padding: 15px;
 }
-/* portfolio sytyles */
-#intrest {
-    border: 4px sliver ridge;
+
+/* portfolio styles */
+#interests {
+    border: 4px rgb(255, 255, 255) ridge;
+    padding: 8px;
 }
 h2, h3 {
     margin: 0px;
 }
-         /* portfolio styles */
-         .content h1 {
-            color: rgb(142, 17, 17);
-        }
-
-        #portfolio {
-            list-style-type: none;
-            padding-left: 0;
-        }
-
-        #portfolio li {
-            background: #e8e8e8;
-            padding: 10px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-        }
-
-        #portfolio li:hover {
-            background: #eee;
-        }
-
-        #portfolio a {
-            text-decoration: none;
-            color: #f8f8f8;
-        }
