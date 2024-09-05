@@ -66,4 +66,30 @@ main {
 }
 h2, h3 {
     margin: 0px;
+} 
+
+/* portfolio styles */
+.content h1 {
+    color: rgb(252, 252, 252);
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #7a434300;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #f7f4f4;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #000000;
 }
